@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+#root {
+  font-family: "Roboto Condensed", sans-serif;
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  text-align: center;
+  /* overflow: hidden; */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+.navBar{
+  padding: 10px;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-evenly;
+  align-Items:center;
+  z-index: 1000; /* Ensure it stays above other content */
+ 
+  background-color: #FBFBFB;
+}
+nav{
+  width: 100%;
+}
+.navBar li{
+  border: 1px solid brown;
+  padding: 4px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+nav button{
+  padding: '5px 10px';
+}
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+@media (min-width: 320px) and (max-width: 425px){
+  .navBar{
+    padding: 10px;
+  }
+  nav{
+    font-size: small;
+  }
+  nav button{
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: small;
+  }
+}

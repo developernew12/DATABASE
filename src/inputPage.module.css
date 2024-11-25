@@ -1,0 +1,61 @@
+form{
+    
+    
+    
+}
+.container{
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #789DBC;
+    height: 100vh;
+    padding: 0px;
+   
+}
+label{
+    color: black;
+    font-weight: 800;
+}
+.containerItems{
+    
+    width: min-content;
+}
+.button{
+    margin: 20px;
+}
+.containerItems input{
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    background-color: #FBFBFB;
+    color: black;
+    
+}
+.error {
+    color: red;
+    font-size: 12px;
+  }
+form{
+    border: 4px solid black;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: hsl(0, 6%, 45%);
+    box-shadow: 4px 2px 10px black;
+}  
+.logoDiv img{
+    width: 100px;
+    border-radius: 4px;
+    padding: 0px;
+    margin: 0px;
+}
+.logoDiv{
+    padding: 0px;
+    margin: 0px;
+}
+@media (min-width: 320px) and (max-width: 425px){
+    .containerItems input{
+        width: 200px; 
+    }
+}
